@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>cssMemSlider</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./reset.css">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div class="slider">
-            <div class="slides">
-                <input type="radio" name="r" id="r1" checked>
-                <input type="radio" name="r" id="r2">
-                <input type="radio" name="r" id="r3">
-                <input type="radio" name="r" id="r4">
 
-                <div class="slide s1"><img src="./img/1.jpg" alt=""></div>
-                <div class="slide"><img src="./img/2.jpg" alt=""></div>
-                <div class="slide"><img src="./img/3.jpg" alt=""></div>
-                <div class="slide"><img src="./img/4.jpg" alt=""></div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>cssMemSlider</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+
+            <div class="slide s1"><img src="./img/1.jpg" alt="">
+                <p>Адаптивность</p>
             </div>
-            <div class="navigation">
-                <label for="r1" class="bar"></label>
-                <label for="r2" class="bar"></label>
-                <label for="r3" class="bar"></label>
-                <label for="r4" class="bar"></label>
+            <div class="slide"><img src="./img/2.jpg" alt="">
+                <p>Непонятный код</p>
+            </div>
+            <div class="slide"><img src="./img/3.jpg" alt="">
+                <p>Шаблон</p>
+            </div>
+            <div class="slide"><img src="./img/4.jpg" alt="">
+                <p>Деплой</p>
             </div>
         </div>
-    </body>
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+        </div>
+    </div>
+</body>
+
 </html>
