@@ -13,37 +13,34 @@
 
 <body>
     <div class="slider">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
         <div class="slides">
-            <input type="radio" name="r" id="r1" checked>
-            <input type="radio" name="r" id="r2">
-            <input type="radio" name="r" id="r3">
-            <input type="radio" name="r" id="r4">
-
-            <div class="slide s1"><img src="./img/1.jpg" alt="">
-                <p>Адаптивность</p>
-            </div>
-            <div class="slide"><img src="./img/2.jpg" alt="">
-                <p>Непонятный код</p>
-            </div>
-            <div class="slide"><img src="./img/3.jpg" alt="">
-                <p>Шаблон</p>
-            </div>
-            <div class="slide"><img src="./img/4.jpg" alt="">
-                <p>Деплой</p>
-            </div>
+            <div class="slide r1"></div>
+            <div class="slide r2"></div>
+            <div class="slide r3"></div>
+            <div class="slide r4"></div>
+        </div>
+        <div class="description">
+            <p class="text p1">Адаптивность</p>
+            <p class="text p2">Непонятный код</p>
+            <p class="text p3">Шаблон</p>
+            <p class="text p4">Деплой</p>
         </div>
         <div class="navigation">
-            <label for="r1" class="bar">
-                <button class="circle"></button>
+            <label for="r1" class="bar l1">
+                <div class="circle"></div>
             </label>
-            <label for="r2" class="bar">
-                <span class="circle"></span>
+            <label for="r2" class="bar l2">
+                <div class="circle"></div>
             </label>
-            <label for="r3" class="bar">
-                <span class="circle"></span>
+            <label for="r3" class="bar l3">
+                <div class="circle"></div>
             </label>
-            <label for="r4" class="bar">
-                <span class="circle"></span>
+            <label for="r4" class="bar l4">
+                <div class="circle"></div>
             </label>
         </div>
     </div>
